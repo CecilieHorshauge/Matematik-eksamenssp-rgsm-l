@@ -1,0 +1,141 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{tgtermes}
+%\usepackage{fouriernc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=3cm]{geometry}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{array} %skema
+
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,   
+    urlcolor=red,
+}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+
+%Is defined to be equal to
+\newcommand*{\defeq}{\mathrel{\vcenter{\baselineskip0.5ex \lineskiplimit0pt
+                     \hbox{\scriptsize.}\hbox{\scriptsize.}}}%
+                     =}
+ 
+\title{{\large \textsc{MATEMATIK A\\ eksamensspørgsmål}}} 
+\author{Cecilie Horshauge}
+\date{\today}
+
+\begin{document}
+\maketitle
+% Intro til opgaven
+\noindent 
+
+\section*{Spørgsmål 1} 
+\begin{enumerate}[label=\alph*)]
+    \item Redegør for løsning af spørgsmål 3 i projekt afkøling. (differentialligninger)
+    \item Redegør for andengradspolynomier på formen \(f(x)=ax^2+b+c\)
+\end{enumerate}
+\indent \indent Kom herunder ind på:
+\begin{itemize}
+    \item Konstanternes betydning
+    \item Grafens udseende
+    \item rødder (andengradsligning)
+    \item toppunkt
+\end{itemize}
+\subsection*{Gennemgang}
+\underline{Konstanternes betydning + grafens udseende}\\
+\(a>0\): Glad parabel\\
+\(a<0\): Sur parabel\\
+Brug den afledte funktion til ar argumentere for det. \\\\
+\(f'(x)=2ax+b\)\\
+\(f'(0)=b\), dvs. at tangenthældingen ved \(x=0\) er \(b\).\\\\
+Skæring med y-aksen ved \(x=0\) er lig med \(c\).\\\\
+\underline{Rødder}
+Rødderne findes ved \(y=0\), vi bestemmer dem ved at løse ligningen \(ax^2+bx+c=0\).
+\begin{align}
+    ax^2+bx+c&=0\\
+    4a^2x^2+4abx+4ac&=0\\
+    4a^2x^2+4abx&=-4ac\\
+    4a^2x^2+4abx+b^2&=-4ac+b^2\\
+    (2ax+b)^2&=-4ac+b^2\\
+    2ax+b&= \pm \sqrt{b^2-4ac}\\
+    2ax &= -b \pm \sqrt{b^2-4ac}\\
+    x &= \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+\end{align}
+\underline{Toppunkt}\\
+I Toppunktet er tangenthældingen lig med 0. Vi havde tidligere beregnet \(f'(x)=2ax+b\).
+\section*{Opgave 2}
+\begin{enumerate}[label=\alph*)]
+    \item Redegør for løsning af spørgsmål 3 i projekt drikkebæger. (Integralregning)
+    \item Redegør for trigonometri på vilkårlige trekanter.
+\end{enumerate}
+\indent \indent Kom herunder ind på:
+\begin{itemize}
+    \item Areal af en vilkårlig trekant
+    \item sinusrelationen
+    \item cosinusrelationen
+    \item Indskrevne og omskrevne cirkler
+\end{itemize} 
+\clearpage
+\section*{Opgave 3}
+\begin{enumerate}[label=\alph*)]
+    \item Redegør for løsning af spørgsmål 4) i projekt ”afkøling”. (differentialligninger)
+    \item Redegør for vektorer i planen.
+\end{enumerate}
+\indent \indent Kom herunder ind på:
+\begin{itemize}
+    \item regning med vektorer (sum, differens mv.)
+    \item skalarprodukt
+    \item vinkel mellem vektorer
+    \item vektorer i polære koordinater
+    \item vektorprojektion
+    \item areal af det udspændte parallelogram
+\end{itemize} 
+\subsection*{Gennemgang}
+\underline{Spørgsmål 4 i projekt afkøling}
+\clearpage
+\section*{Opgave 4}
+\begin{enumerate}[label=\alph*)]
+    \item Redegør for løsning af spørgsmål 4 i projekt drikkebæger. (Integralregning)
+    \item Redegør for trigonometri på vilkårlige trekanter.
+\end{enumerate}
+\indent \indent Kom herunder ind på:
+\begin{itemize}
+    \item Afstand mellem to punkter i planen
+    \item Linjens ligning på normalform
+    \item Afstand mellem punkt og linje i planen
+    \item Cirklens ligning
+    \item Ortogonale linjer
+\end{itemize}
+\subsection*{Gennemgang}
+\underline{Løsning af spørgsmål 4 i projekt drikkebæger}\\\\
+Projekt 
+\section*{Opgave 5}
+ 
+\section*{Spørgsmål 7} 
+\begin{enumerate}[label=\alph*)]
+    \item Redegør for løsning af spørgsmål e i projekt avedøreværket. (rumgeometri)
+    \item Redegør for differentialregning.
+\end{enumerate}
+\indent \indent Kom herunder ind på:
+\begin{itemize}
+    \item Definition af differentialkvotient
+    \item Tretrinsmetoden 
+    \item Regneregler for differentiable funktioner
+\end{itemize}
+John foreslår, at for at spare tid redegører man for tretrinsmetoden med at eksempel på regneregler.
+\end{document}
